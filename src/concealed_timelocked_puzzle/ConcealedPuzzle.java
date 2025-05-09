@@ -1,4 +1,4 @@
-package concealed_timelocked_puzzle;
+xpackage concealed_timelocked_puzzle;
 
 import java.io.Serializable;
 import java.math.BigInteger;
