@@ -43,6 +43,8 @@ import org.bitcoinj.wallet.KeyChain.KeyPurpose;
 import org.bitcoinj.wallet.Wallet;
 import org.bitcoinj.wallet.Wallet.SendResult;
 
+import com.google.common.io.BaseEncoding;
+
 import sssig.SSSECDSA;
 import wf.bitcoin.javabitcoindrpcclient.BitcoinJSONRPCClient;
 

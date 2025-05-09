@@ -64,7 +64,7 @@ public class MainExperiment {
 			s.connect(dest);
 			id = 2;
 			System.out.println("Connection to Server successful");
-			in = new ObjectInputStream(s.getInputStream());
+			in = new ObjectInputStream(s.getInputStream()); 
 			out = new ObjectOutputStream(s.getOutputStream());
 		}
 		catch(Exception e){
